@@ -13,9 +13,9 @@ The dataset were collected by the Biomedical Optics and Ophthalmic Imaging Labor
 
 Dependencies
 ------------
-tensorflow >= 2.3.0
-keras >= 2.4.0
-python >= 3.8
+- tensorflow >= 2.3.0
+- keras >= 2.4.0
+- python >= 3.8
 
 
 Citations
