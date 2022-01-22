@@ -5,7 +5,7 @@ Overview
 ------------
 Chromatic dispersion compensation is a common problem that degrades the resolution in optical coherence tomography (OCT).
 In this project we present a deep learning approach for dispersion compensation using a fully convolutional network (FCN)
-named automated dispersion comepnsation network (ADC-Net).
+named automated dispersion compensation network (ADC-Net).
 
 Dataset
 ------------
