@@ -15,7 +15,7 @@ Dataset
 ------------
 The dataset were collected by the Biomedical Optics and Ophthalmic Imaging Laboratory at the University of Illinois at Chicago. This study has been conducted in compliance with the ethical regulations reported in the Declaration of Helsinki and has been authorized by the institutional review board of the University of Illinois at Chicago.
 
-![The Ground Truths were the fully dispersion compensated OCT B-scans and were prepared by stitching the partially dispersion compensated images together.](https://github.com/dleninja/adcnet/blob/main/misc/ground_truth_preparation.png?raw=true)
+![The Ground Truths were the fully dispersion compensated OCT B-scans and were prepared by stitching the partially dispersion compensated images together.](https://github.com/dleninja/adcnet/blob/main/misc/ground_truth.png?raw=true)
 
 In this repository contains the training and testing dataset. A total of 9 OCT volumes were captured. Each OCT volume consists of ~1200 B-scans. Seven of these OCT volumes (8400 B-scans) were used for training the model, and another two (2400 B-scans) were used as testing set.
 
