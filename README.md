@@ -15,12 +15,13 @@ The dataset were collected by the Biomedical Optics and Ophthalmic Imaging Labor
 
 ![The Ground Truths were the fully dispersion compensated OCT B-scans and were prepared by stitching the partially dispersion compensated images together.](https://github.com/dleninja/adcnet/blob/main/misc/ground_truth_preparation.png?raw=true)
 
+In this repository contains the training and testing dataset.
+
 Dependencies
 ------------
 - tensorflow >= 2.3.0
 - keras >= 2.4.0
 - python >= 3.8
-
 
 Citations
 -----------
