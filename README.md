@@ -21,7 +21,7 @@ In this repository contains the training and testing dataset. A total of 9 OCT v
 
 Model Architecture
 ------------
-The ADC-Net is a fully convolutional network (FCN) based on a modified UNet algorithm, which consists of an encoder-decoder architecture (Figure1). The input to the ADC-Net can be of a single channel or a multichannel system. Each input is an OCT B-scan image which was compensated by different second-order dispersion compensation coefficients and hence the B-scans in each channel are optimally compensated at different layers or depths. The output is dispersion compensated OCT B-scans where all layers in different depths are compensated effectively. 
+The ADC-Net is a FCN based on a modified UNet algorithm, which consists of an encoder-decoder architecture. The input to the ADC-Net can be of a single channel or a multichannel system. Each input is an OCT B-scan image which was compensated by different second-order dispersion compensation coefficients and hence the B-scans in each channel are optimally compensated at different layers or depths. The output is dispersion compensated OCT B-scans where all layers in different depths are compensated effectively. 
 
 Dependencies
 ------------
