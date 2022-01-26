@@ -7,7 +7,7 @@ Chromatic dispersion compensation is a common problem that degrades the resoluti
 In this project we present a deep learning approach for dispersion compensation using a fully convolutional network (FCN)
 named automated dispersion compensation network (ADC-Net).
 
-
+![The input in ADCNet is an array of size (X,Y,N), where N is the number of partially dipersion comepensated OCT B-scans, the output of ADCNet is a single fully dipersion compensated OCT B-scan.](https://github.com/dleninja/adcnet/blob/main/misc/pipeline.png?raw=true)
 
 Dataset
 ------------
