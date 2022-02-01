@@ -13,7 +13,7 @@ from pathlib import Path
 #
 image_names = []
 #
-basepath =Path("Dataset/magnitude1")
+basepath =Path("dataset_dir/magnitude1")
 files_in_basepath = basepath.iterdir()
 #
 for item in files_in_basepath:
