@@ -1,9 +1,7 @@
 """
 Automated Dispersion Compensation Network (ADC-Net).
-
 This file contains the code to train ADC-Net. For this example, a 5 input model will be demonstrated.
 Minor modifications is needed for the other types of input models.
-
 @author: dleninja
 """
 #
@@ -36,6 +34,7 @@ import cv2
 #
 from model import *
 from custom_utils import *
+#
 """
 Load the ADCNet model, dependent on the functions defined in model.py
 """
@@ -71,9 +70,13 @@ model.compile(
 #
 batch_size = 16
 #
+export_dir = Path("Results")
+if not os.path.exists(export_dir):
+    os.makedirs(export_dir)
+#
 model_file_format = os.path.join(
     export_dir, 
-    "dispersion_" + str(fold_num) + "_model.{epoch:03d}.hdf5"
+    "dispersion_model.{epoch:03d}.hdf5"
 )
 checkpointer = ModelCheckpoint(
     model_file_format,
@@ -96,19 +99,15 @@ df_train = df_train.sample(frac=1)
 df_valid = df[n_train:]
 df_valid = df_valid.sample(frac=1)
 #
-path1 = Path("dataset_dir/magnitude1")
-path2 = Path("dataset_dir/magnitude3")
-path3 = Path("dataset_dir/magnitude5")
-path4 = Path("dataset_dir/magnitude7")
-path5 = Path("dataset_dir/magnitude9")
-path6 = Path("dataset_dir/compensated")
+path1 = Path("dataset/magnitude1")
+path2 = Path("dataset/magnitude3")
+path3 = Path("dataset/magnitude5")
+path4 = Path("dataset/magnitude7")
+path5 = Path("dataset/magnitude9")
+path6 = Path("dataset/compensated")
 #
 path_list_X = [path1, path2, path3, path4, path5]
 path_list_y = [path6]
-#
-export_dir = Path("Results")
-if not os.path.exists(export_dir):
-    os.makedirs(export_dir)
 #
 im_shape = (608, 320)
 #
