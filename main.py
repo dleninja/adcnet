@@ -106,7 +106,7 @@ path6 = Path("dataset_dir/compensated")
 path_list_X = [path1, path2, path3, path4, path5]
 path_list_y = [path6]
 #
-export_dir = Path("")
+export_dir = Path("Results")
 if not os.path.exists(export_dir):
     os.makedirs(export_dir)
 #
