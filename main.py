@@ -40,7 +40,7 @@ from custom_utils import *
 Load the ADCNet model, dependent on the functions defined in model.py
 """
 #
-model = adcnet_model(block=[6, 12, 24, 16], height=320, width=320, n_channels=5)
+model = adcnet_model(block=[6, 12, 24, 16], height=608, width=320, n_channels=5)
 model.summary()
 #
 """
