@@ -2,8 +2,7 @@
 Automated Dispersion Compensation Network (ADC-Net).
 
 This file is stores several utility functions, namely:
-- load_multchannel_image
-- load_grayscale_image
+- load_multichannel_imag
 - SSIMloss
 
 @author: dleninja
