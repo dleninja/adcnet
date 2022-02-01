@@ -1,3 +1,11 @@
+"""
+Automated Dispersion Compensation Network (ADC-Net).
+
+This file contains the network architecture of ADC-Net. All functions and dependencies are self-contained
+
+@author: dleninja
+"""
+#
 from tensorflow.keras.layers import Input, Conv2D, ZeroPadding2D, BatchNormalization, UpSampling2D, Concatenate, Activation, AveragePooling2D, MaxPool2D
 from tensorflow.keras import Model
 from tensorflow.keras import backend
