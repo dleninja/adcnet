@@ -33,4 +33,4 @@ Citations
 ------------
 Shaiban Ahmed, David Le, Taeyoon Son, Tobiloba Adejumo, and Xincheng Yao.
 "ADC-Net: An Open-Source Deep Learning Network for Automated Dispersion Compensation in Optical Coherence Tomography", Frontiers in Medicine (2022).
-[arXiv](https://arxiv.org/abs/2201.12625)
+[(arXiv)](https://arxiv.org/abs/2201.12625)
