@@ -111,7 +111,6 @@ def decoder_block(x, x1, growth_rate, name):
 		growth_rate: float, growth rate for decoder block.
 		name: string, block name.
 
-
 	Returns:
 		x2: Output tensor for the block.
 	"""
