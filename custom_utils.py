@@ -2,7 +2,7 @@
 Automated Dispersion Compensation Network (ADC-Net).
 
 This file is stores several utility functions, namely:
-- load_multichannel_imag
+- load_multichannel_image
 - SSIMloss
 
 @author: dleninja
@@ -64,10 +64,10 @@ def SSIMLoss(y_true, y_pred):
     Structural similiary index measure (SSIM) loss function
 
     Args:
-        y_true: ground truth tensor
-        y_pred: prediction tensor by the model
+        y_true: ground truth tensor.
+        y_pred: prediction tensor by the model.
 
     Returns:
-        loss
+        loss.
     """
     return (1 - tf.reduce_mean(tf.image.ssim(y_true, y_pred, 1.0)))
