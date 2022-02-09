@@ -1,7 +1,9 @@
 """
 Automated Dispersion Compensation Network (ADC-Net).
+
 This file contains the code to train ADC-Net. For this example, a 5 input model will be demonstrated.
 Minor modifications is needed for the other types of input models.
+
 @author: dleninja
 """
 #
